@@ -53,3 +53,8 @@ variable "db_port" {
                 EOS
   type = number
 }
+
+variable "custom_tags" {
+  description = "value"
+  type = map(string)
+}
